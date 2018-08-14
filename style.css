@@ -1,0 +1,64 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Hack;
+}
+
+.bg{
+    background-image: url("bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.shadowbox{
+    background-color: black;
+    height: 250px;
+    width: 652px;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 650px;
+    filter: blur(2px);
+}
+
+.container{
+    background-color: lightgrey;
+    height: 250px;
+    width: 652px;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 635px;
+    border-radius: 3px;
+}
+
+.message{
+    text-align: center;
+    font-size: 18px;
+}
+
+table{
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 124px;
+}
+
+th, td{
+    text-align: center;
+    padding-right: 70px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    color: grey;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited, a:active{
+    color: darkgrey;
+}
+
+a:hover{
+    color:grey;
+}

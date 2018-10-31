@@ -5,7 +5,8 @@ body, html{
 }
 
 .bg{
-    background-image: url("bg.jpg");
+    /* background-image: url("bg.jpg"); */
+    background-color: #6699cc;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,12 +15,15 @@ body, html{
 
 .shadowbox{
     background-color: black;
+    position: absolute;
+    filter: blur(2px);
+}
+
+.containershadow{
     height: 250px;
     width: 652px;
-    position: absolute;
     margin-top: 315px;
     margin-left: 650px;
-    filter: blur(2px);
 }
 
 .container{
@@ -35,6 +39,20 @@ body, html{
 .message{
     text-align: center;
     font-size: 18px;
+    color: grey;
+}
+
+.searchshadow{
+    height: 32px;
+    width: 652px;
+    margin-top: 600px;
+    margin-left: 650px;
+}
+
+.searchbox{
+    position: absolute;
+    margin-top: 585px;
+    margin-left: 635px;
 }
 
 table{
@@ -61,4 +79,14 @@ a:link, a:visited, a:active{
 
 a:hover{
     color:grey;
+}
+
+input{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 3px;
+    height: 32px;
+    width: 652px;
+    font-size: 16px;
+    color: grey;
 }

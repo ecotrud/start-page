@@ -1,16 +1,22 @@
 body, html{
     height: 100%;
+    width: 100%;
     margin: 0;
     font-family: Hack;
+    background-image: url("bg2.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg{
-    /* background-image: url("bg.jpg"); */
-    background-color: #6699cc;
+    /* background-image: url("bg2.jpg"); */
+    /* background-color: #6699cc; */
     height: 100%;
-    background-position: center;
+    width: 100%;
+    /* background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .shadowbox{
@@ -92,4 +98,22 @@ input{
     font-family: inherit;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+@media (max-width: 960px){
+    .containershadow{
+        margin-left: 125px;
+    }
+
+    .container{
+        margin-left: 110px;
+    }
+
+    .searchshadow{
+        margin-left: 125px;
+    }
+
+    .searchbox{
+        margin-left: 110px;
+    }
 }
